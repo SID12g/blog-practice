@@ -5,7 +5,8 @@
   "homepage": "http://sid12g.github.io/sid12g-blog",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
