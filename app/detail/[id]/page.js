@@ -1,6 +1,5 @@
 import { connectDB } from "@/util/database";
 import { ObjectId } from "mongodb";
-import NotFound from "./not-found";
 
 export default async function Detail(props) {
     let db = (await connectDB).db('forum');
