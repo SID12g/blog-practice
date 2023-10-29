@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import LoginBtn from "./LogInBtn";
 export default function Information() {
     return (
         <div className="information">
