@@ -7,7 +7,7 @@ export default async function Detail(props) {
     console.log(props.params.id)
     console.log(1)
     if(result === null) {
-        return <NotFound/>
+        return <p>잘못된 접근 입니다.</p>
     }
     return (
         <div className="detail-wrap">
