@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath:"/sid12g-blog",
+    basePath:"/",
     images: {
-        domains: ["localhost", "*"],
+        domains: ["sid12g-blog-2qav.vercel.app", "*"],
       },
       reactStrictMode: true,
 }
